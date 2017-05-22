@@ -20,7 +20,7 @@ Zplay Adx RTB 总共包含三个步骤。
 
 1. ADX 的 RTB API参考通用OpenRTB规范：http://code.google.com/p/openrtb/。大体遵循该规范，但对一些字段有调整
 
-2. 协议采用 HTTP POST，开启keep-alive，消息格式为ProtoBuf。目前 timeout 设为 360ms。请求头中需要设 Content-Type 为 application/x-protobuf。
+2. 协议采用 HTTP POST，开启keep-alive，消息格式为json。目前 timeout 设为 360ms。请求头中需要设 Content-Type 为 application/json。
 
 3. 不出价可以返回HTTP 状态码204 (No Content)
 
